@@ -25,3 +25,12 @@
 #5. Push to github and deploy
 ------------------------------------------------------------------
 git add . && git commit -m "codemobiles" && git push
+
+
+#6. Heroku cli
+-----------------------------------
+sudo yarn global add heroku
+
+#7. Check log
+-----------------------------------
+heroku logs --tail --app heroku-cm-demo
